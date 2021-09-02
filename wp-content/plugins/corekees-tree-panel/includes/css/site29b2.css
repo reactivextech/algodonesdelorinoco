@@ -1,0 +1,50 @@
+input[type="date"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
+    background: #fafafa;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+input[type="date"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
+    color: #666666;
+    background-color: #fafafa;
+    border-color: #cccccc;
+}
+
+.edit-account fieldset {
+    box-sizing: border-box;
+    margin-left: 15px;
+    padding: 15px;
+    background-color: #eaeaea;
+}
+
+.edit-account fieldset legend {
+    margin-bottom: 0;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #eaeaea;
+}
+
+.notice, div.error, div.updated {
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 20px 0;
+    padding: 15px;
+}
+
+.notice-error, div.error {
+    border-left-color: #dc3232;
+}
+
+.notice-success, div.success {
+    border-left-color: #439e4c;
+}
+
+mark {
+    background: inherit;
+    font-weight: bold;
+}
