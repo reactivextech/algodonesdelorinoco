@@ -1832,7 +1832,7 @@ html .wp-block-cover[style*="background-image"]:not(.optml-bg-lazyloaded) {
 
 		.e6434-15.x-image {
 			width: 100%;
-			max-width: 330px;
+			max-width: 120px;
 			margin: 0.15em 0em 0em 0em;
 			transition-timing-function: cubic-bezier(0.400, 0.000, 0.200, 1.000);
 		}
