@@ -7944,7 +7944,7 @@ header .header_inner,
 
 @media (min-width: 1024px) {
   .is-verticle header {
-    background-color: transparent;
+    background-color: #fff;
     border: 0;
   }
   .is-verticle header .header_inner {

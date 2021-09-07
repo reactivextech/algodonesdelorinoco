@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Courseplus Template</title>
+    <title>FORMALGODÓN - PAGINA PRINCIPAL</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Courseplus is - Professional A unique and beautiful collection of UI elements">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../assets/css/uikit.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/tailwind.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
 
 </head>
 
@@ -30,10 +31,10 @@
     <div id="wrapper" class="is-verticle">
 
         <!--  Header  -->
-        <header uk-sticky> 
+        <header uk-sticky>
             <div class="header_inner">
                 <div class="left-side">
-    
+
                     <!-- Logo -->
                     <div id="logo">
                         <a href="explore.html">
@@ -42,64 +43,66 @@
                             <img src="../assets/images/logo-mobile.png" class="logo_mobile" alt="">
                         </a>
                     </div>
-    
+
                     <!-- icon menu for mobile -->
                     <div class="triger" uk-toggle="target: #wrapper ; cls: is-active">
                     </div>
-    
+
                 </div>
                 <div class="right-side">
-     
+
                     <!-- Header search box  -->
-                    <div class="header_search"><i class="uil-search-alt"></i> 
-                        <input value="" type="text" class="form-control" placeholder=" Quick search for anything.." autocomplete="off">
+                    <div class="header_search"><i class="uil-search-alt text-white"></i>
+                        <input value="" type="text" class="form-control text-white"
+                            placeholder=" Buscar cursos y talleres" autocomplete="off">
                         <div uk-drop="mode: click;offset:10" class="header_search_dropdown">
-                               
-                            <h4 class="search_title"> Recently </h4>
+
+                            <h4 class="search_title"> Recientes </h4>
                             <ul>
-                                <li> 
-                                    <a href="#">  
+                                <li>
+                                    <a href="#">
                                         <img src="../assets/images/avatars/avatar-1.jpg" alt="" class="list-avatar">
-                                        <div class="list-name">  Erica Jones </div>
-                                    </a> 
-                                </li> 
-                                <li> 
-                                    <a href="#">  
-                                        <img src="../assets/images/avatars/avatar-2.jpg" alt="" class="list-avatar">
-                                        <div class="list-name">  Coffee  Addicts </div>
-                                    </a> 
+                                        <div class="list-name"> Erica Jones </div>
+                                    </a>
                                 </li>
-                                <li> 
-                                    <a href="#">  
+                                <li>
+                                    <a href="#">
+                                        <img src="../assets/images/avatars/avatar-2.jpg" alt="" class="list-avatar">
+                                        <div class="list-name"> Coffee Addicts </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
                                         <img src="../assets/images/avatars/avatar-3.jpg" alt="" class="list-avatar">
                                         <div class="list-name"> Mountain Riders </div>
-                                    </a> 
+                                    </a>
                                 </li>
-                                <li> 
-                                    <a href="#">  
+                                <li>
+                                    <a href="#">
                                         <img src="../assets/images/avatars/avatar-4.jpg" alt="" class="list-avatar">
-                                        <div class="list-name"> Property Rent And Sale  </div>
-                                    </a> 
+                                        <div class="list-name"> Property Rent And Sale </div>
+                                    </a>
                                 </li>
-                                <li> 
-                                    <a href="#">  
+                                <li>
+                                    <a href="#">
                                         <img src="../assets/images/avatars/avatar-5.jpg" alt="" class="list-avatar">
-                                        <div class="list-name">  Erica Jones </div>
-                                    </a> 
+                                        <div class="list-name"> Erica Jones </div>
+                                    </a>
                                 </li>
                             </ul>
-    
+
                         </div>
                     </div>
 
                     <div>
 
                         <!-- cart -->
-                        <a href="#" class="header_widgets">
+                        <!-- <a href="#" class="header_widgets">
                             <ion-icon name="cart-outline" class="is-icon"></ion-icon>
+                            <
                         </a>
                         <div uk-drop="mode: click" class="dropdown_cart">
-                            <h4 class="cart-headline"> My Cart </h4>
+                            <h4 class="cart-headline"> Carrito </h4>
                             <ul class="dropdown_cart_scrollbar" data-simplebar>
                                 <li>
                                     <div class="cart_avatar">
@@ -179,43 +182,48 @@
                                 <p> Subtotal : $ 320 </p>
                                 <h1> Total :  <strong> $ 320</strong> </h1>
                             </div>
-                        </div>
-        
+                        </div> -->
+
                         <!-- notification -->
                         <a href="#" class="header_widgets">
-                            <ion-icon name="mail-outline" class="is-icon"></ion-icon>
+                            <!-- <ion-icon name="mail-outline" class="is-icon"></ion-icon> -->
+                            <i class="fa fa-bell"></i>
                         </a>
-                        <div uk-drop="mode: click" class="header_dropdown"> 
+                        <div uk-drop="mode: click" class="header_dropdown">
                             <div class="drop_headline">
-                                <h4>Notifications </h4>
+                                <h4>Notificaciones </h4>
                                 <div class="btn_action">
                                     <div class="btn_action">
                                         <a href="#">
-                                            <ion-icon name="settings-outline" uk-tooltip="title: Notifications settings ; pos: left"></ion-icon>
+                                            <ion-icon name="settings-outline"
+                                                uk-tooltip="title: Notifications settings ; pos: left"></ion-icon>
                                         </a>
                                         <a href="#">
-                                            <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
+                                            <ion-icon name="checkbox-outline"
+                                                uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-        
+
                             <ul class="dropdown_scrollbar" data-simplebar>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
-                                            <p> <strong>Adrian Mohani</strong> Like Your Comment On Course
+                                            <p> <strong>Adrian Mohani</strong> le gusta tu comentario del curso
                                                 <span class="text-link">Javascript Introduction </span>
                                             </p>
-                                            <span class="time-ago"> 2 hours ago </span>
+                                            <span class="time-ago"> Hace 2 horas </span>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <p>
@@ -228,7 +236,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <p>
@@ -241,7 +250,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <p>
@@ -253,30 +263,34 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="see-all">See all</a>
+                            <a href="#" class="see-all">Ver todos</a>
                         </div>
-        
+
                         <!-- messages -->
                         <a href="#" class="header_widgets">
-                            <ion-icon name="notifications-outline" class="is-icon"></ion-icon>
+                            <!-- <ion-icon name="notifications-outline" class="is-icon"></ion-icon> -->
+                            <i class="fa fa-envelope"></i>
                             <span> 2 </span>
                         </a>
                         <div uk-drop="mode: click" class="header_dropdown">
                             <div class="drop_headline">
-                                <h4>Messages </h4>
+                                <h4>Mensajes </h4>
                                 <div class="btn_action">
                                     <a href="#">
-                                        <ion-icon name="settings-outline" uk-tooltip="title: Message settings ; pos: left"></ion-icon>
+                                        <ion-icon name="settings-outline"
+                                            uk-tooltip="title: Message settings ; pos: left"></ion-icon>
                                     </a>
                                     <a href="#">
-                                        <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
+                                        <ion-icon name="checkbox-outline"
+                                            uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
                                     </a>
                                 </div>
                             </div>
                             <ul class="dropdown_scrollbar" data-simplebar>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> John menathon </strong> <span class="time"> 6:43 PM</span>
@@ -286,7 +300,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Zara Ali </strong> <span class="time">12:43 PM</span>
@@ -296,7 +311,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Mohamed Ali </strong> <span class="time"> Wed</span>
@@ -306,7 +322,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> John menathon </strong> <span class="time"> Sun </span>
@@ -316,7 +333,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Zara Ali </strong> <span class="time"> Fri </span>
@@ -326,7 +344,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Mohamed Ali </strong> <span class="time">1 Week ago</span>
@@ -335,88 +354,88 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="see-all">See all</a>
+                            <a href="#" class="see-all">Ver todos</a>
                         </div>
-        
-                         <!-- profile -->
+
+                        <!-- profile -->
                         <a href="#">
                             <img src="../assets/images/avatars/placeholder.png" class="header_widgets_avatar" alt="">
                         </a>
                         <div uk-drop="mode: click;offset:5" class="header_dropdown profile_dropdown">
-                            <ul>   
+                            <ul>
                                 <li>
                                     <a href="#" class="user">
                                         <div class="user_avatar">
                                             <img src="../assets/images/avatars/avatar-2.jpg" alt="">
                                         </div>
                                         <div class="user_name">
-                                            <div> Stella Johnson </div>
-                                            <span> @Johnson </span>
+                                            <div> Pedro Perez </div>
+                                            <span> @pperez </span>
                                         </div>
                                     </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <hr>
                                 </li>
-                                <li> 
+                                <!-- <li> 
                                     <a href="#" class="is-link">
                                         <ion-icon name="rocket-outline" class="is-icon"></ion-icon> <span>  Upgrade Membership  </span>
                                     </a>
-                                </li> 
-                                <li> 
+                                </li>  -->
+                                <li>
                                     <hr>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="page-setting.html">
                                         <ion-icon name="person-circle-outline" class="is-icon"></ion-icon>
-                                         My Account 
-                                    </a>
-                                </li>
-                                <li> 
-                                    <a href="group-feed.html">
-                                        <ion-icon name="card-outline" class="is-icon"></ion-icon>
-                                        Subscriptions
-                                    </a>
-                                </li>
-                                <li> 
-                                    <a href="group-feed.html">
-                                        <ion-icon name="color-wand-outline" class="is-icon"></ion-icon>
-                                        My Billing 
+                                        Mi cuenta
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="group-feed.html">
-                                        <ion-icon name="settings-outline" class="is-icon"></ion-icon>
-                                        Account Settings  
+                                    <a href="#">
+                                        <ion-icon name="card-outline" class="is-icon"></ion-icon>
+                                        Subscripcion
                                     </a>
                                 </li>
-                                <li> 
+                                <li>
+                                    <a href="#">
+                                        <ion-icon name="color-wand-outline" class="is-icon"></ion-icon>
+                                        Mis Cursos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <ion-icon name="settings-outline" class="is-icon"></ion-icon>
+                                        Configuración
+                                    </a>
+                                </li>
+                                <li>
                                     <hr>
                                 </li>
-                                <li> 
+                                <!-- <li> 
                                     <a href="#" id="night-mode" class="btn-night-mode" onclick="UIkit.notification({ message: 'Hmm...  <strong> Night mode </strong> feature is not available yet. ' , pos: 'bottom-right'  })">
                                         <ion-icon name="moon-outline" class="is-icon"></ion-icon>
-                                         Night mode
+                                         Modo oscuro
                                         <span class="btn-night-mode-switch">
                                             <span class="uk-switch-button"></span>
                                         </span>
                                     </a>
-                                </li>
-                                <li> 
-                                    <a href="group-feed.html">
+                                </li> -->
+                                <li>
+                                    <a href="index.html">
                                         <ion-icon name="log-out-outline" class="is-icon"></ion-icon>
-                                        Log Out 
+                                        Salir
                                     </a>
                                 </li>
                             </ul>
-                        </div> 
+                        </div>
 
                     </div>
-    
+
                 </div>
             </div>
         </header>
-  
+
         <!-- Main Contents -->
         <div class="main_content">
             <div class="container">
@@ -424,132 +443,189 @@
                 <h1 class="text-2xl font-semibold mb-5"> Episodes </h1>
 
                 <div class="grid lg:grid-cols-4 grid-cols-2 gap-3 mb-5">
-        
-                    <a href="episodes-watch.html" class="col-span-2 row-span-2"> 
+
+                    <a href="episodes-watch.html" class="col-span-2 row-span-2">
                         <div class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-full h-60 shadow-sm">
-                            <img src="../assets/images/blog/img-5.jpg" class="absolute w-full h-full object-cover" alt="">
-                            <div class="absolute bottom-0 w-full p-5 text-white z-20 text-opacity-90 backdrop-filter backdrop-blur-lg">
-                                <h1 class="font-bold lg:text-2xl text-xl text-white mb-1 line-clamp-2"> Learn Angular Fundamentals From beginning to advance lavel</h1>
+                            <img src="../assets/images/blog/img-5.jpg" class="absolute w-full h-full object-cover"
+                                alt="">
+                            <div
+                                class="absolute bottom-0 w-full p-5 text-white z-20 text-opacity-90 backdrop-filter backdrop-blur-lg">
+                                <h1 class="font-bold lg:text-2xl text-xl text-white mb-1 line-clamp-2"> Learn Angular
+                                    Fundamentals From beginning to advance lavel</h1>
                                 <div class="flex space-x-2 items-center text-sm mt-2">
                                     <p class="font-semibold md:block hidden"> Denise Marie </p>
                                     <div class="md:block hidden">·</div>
-                                    <div> 27 weeks ago</div> 
-                                    <div class="md:block hidden">·</div> 
+                                    <div> 27 weeks ago</div>
+                                    <div class="md:block hidden">·</div>
                                     <div> 156.9K views</div>
                                 </div>
                             </div>
-                            <div class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10"></div>
+                            <div
+                                class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                            </div>
                         </div>
                     </a>
-                    
+
                     <a href="episodes-watch.html">
-                        <div class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
-                            <img src="../assets/images/episodes/img-2.jpg" class="absolute w-full h-full object-cover" alt="">
-                            <div class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">  The PHP Singleton class  </div>
-                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
-                            <div class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10"></div>
-                        </div>
-                    </a>
-                    <a href="episodes-watch.html">
-                        <div class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
-                            <img src="../assets/images/episodes/img-3.jpg" class="absolute w-full h-full object-cover" alt="">
-                            <div class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">  Creating sticky in HTML  </div>
-                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
-                            <div class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10"></div>
-                        </div>
-                    </a>
-                    <a href="episodes-watch.html">
-                        <div class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
-                            <img src="../assets/images/episodes/img-4.jpg" class="absolute w-full h-full object-cover" alt="">
-                            <div class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">  Larafel $ fliepond  </div>
-                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
-                            <div class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10"></div>
+                        <div
+                            class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
+                            <img src="../assets/images/episodes/img-2.jpg" class="absolute w-full h-full object-cover"
+                                alt="">
+                            <div
+                                class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">
+                                The PHP Singleton class </div>
+                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
+                            <div
+                                class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                            </div>
                         </div>
                     </a>
                     <a href="episodes-watch.html">
-                        <div class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
-                            <img src="../assets/images/episodes/img-1.jpg" class="absolute w-full h-full object-cover" alt="">
-                            <div class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base"> Creating Website Pure CSS  </div>
-                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
-                            <div class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10"></div>
+                        <div
+                            class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
+                            <img src="../assets/images/episodes/img-3.jpg" class="absolute w-full h-full object-cover"
+                                alt="">
+                            <div
+                                class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">
+                                Creating sticky in HTML </div>
+                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
+                            <div
+                                class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                            </div>
                         </div>
                     </a>
-            
+                    <a href="episodes-watch.html">
+                        <div
+                            class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
+                            <img src="../assets/images/episodes/img-4.jpg" class="absolute w-full h-full object-cover"
+                                alt="">
+                            <div
+                                class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">
+                                Larafel $ fliepond </div>
+                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
+                            <div
+                                class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="episodes-watch.html">
+                        <div
+                            class="bg-gray-200 rounded-md overflow-hidden relative w-full lg:h-44 h-36 shadow-sm uk-transition-toggle">
+                            <img src="../assets/images/episodes/img-1.jpg" class="absolute w-full h-full object-cover"
+                                alt="">
+                            <div
+                                class="absolute -bottom-1.5 w-full p-3 text-white z-20 line-clamp-2 text-opacity-95 font-medium text-base">
+                                Creating Website Pure CSS </div>
+                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                class="w-12 h-12 uk-position-center uk-transition-fade -mt-4" alt="">
+                            <div
+                                class="absolute w-full h-full -bottom-1/2 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                            </div>
+                        </div>
+                    </a>
+
                 </div>
 
                 <!-- this is user toggle media to remove unwanted class for small devices more check docs uikit on https://getuikit.com/docs/toggle. -->
                 <div class="tube-card p-4 mt-3" uk-toggle="cls: tube-card p-4; mode: media; media: 640">
 
-                    <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-2"> <ion-icon name="star" class="mr-2"></ion-icon> Graphic desginer </h4>
+                    <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-2">
+                        <ion-icon name="star" class="mr-2"></ion-icon> Graphic desginer
+                    </h4>
 
                     <div class="relative -mx-1" uk-slider="finite: true">
-                
-                          <div class="uk-slider-container md:px-1 px-2 py-3">
+
+                        <div class="uk-slider-container md:px-1 px-2 py-3">
                             <ul class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-2 uk-grid-small uk-grid">
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-2.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
+                                            <img src="../assets/images/episodes/img-2.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
                                             <span
                                                 class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  The PHP Singleton class  </a>
-                                        <p class="text-sm pt-1"> By <a href="#"> Stella Johnson  </a> </p>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> The PHP
+                                            Singleton class </a>
+                                        <p class="text-sm pt-1"> By <a href="#"> Stella Johnson </a> </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-4.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                            <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
+                                            <img src="../assets/images/episodes/img-4.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
+                                            <span
+                                                class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Larafel $ fliepond   </a>
-                                        <p href="episodes-watch.html" class="text-sm pt-1"> By <a href="#"> Jesse Stevens </a> </p>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> Larafel $
+                                            fliepond </a>
+                                        <p href="episodes-watch.html" class="text-sm pt-1"> By <a href="#"> Jesse
+                                                Stevens </a> </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-1.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                            <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
+                                            <img src="../assets/images/episodes/img-1.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
+                                            <span
+                                                class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Creating a Laravel Package   </a>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> Creating a
+                                            Laravel Package </a>
                                         <p class="text-sm pt-1"> By <a href="#"> John Michael </a> </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-3.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                            <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
+                                            <img src="../assets/images/episodes/img-3.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
+                                            <span
+                                                class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Creating sticky in HTML   </a>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> Creating
+                                            sticky in HTML </a>
                                         <p class="text-sm pt-1"> By <a href="#"> Monroe Parker </a> </p>
                                     </div>
-                                </li> 
+                                </li>
                             </ul>
-                
-                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="previous">  <ion-icon name="chevron-back-outline"></ion-icon> </a>
-                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="next"> <ion-icon name="chevron-forward-outline"></ion-icon></a>
-                
-                          </div>
-                
+
+                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                                href="#" uk-slider-item="previous">
+                                <ion-icon name="chevron-back-outline"></ion-icon>
+                            </a>
+                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                                href="#" uk-slider-item="next">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                            </a>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -561,194 +637,240 @@
                         <p class="font-medium text-gray-500 leading-6"> Find a topic by browsing top categories. </p>
                     </div>
                     <a href="#" class="text-blue-500 sm:block hidden"> See all </a>
-                </div> 
+                </div>
 
                 <div class="relative -mt-3" uk-slider="finite: true">
-                
+
                     <div class="uk-slider-container px-1 py-3">
-                        <ul class="uk-slider-items uk-child-width-1-5@m uk-child-width-1-3@s uk-child-width-1-2 uk-grid-small uk-grid">
+                        <ul
+                            class="uk-slider-items uk-child-width-1-5@m uk-child-width-1-3@s uk-child-width-1-2 uk-grid-small uk-grid">
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/design.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Design </div>
+                                    <img src="../assets/images/category/design.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Design </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/marketing.jpg" class="absolute w-full h-full object-cover"
-                                        alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Marketing </div>
+                                    <img src="../assets/images/category/marketing.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Marketing </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/it-and-software.jpg" class="absolute w-full h-full object-cover"
-                                        alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Software</div>
+                                    <img src="../assets/images/category/it-and-software.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Software</div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/music.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Music </div>
+                                    <img src="../assets/images/category/music.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Music </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/business.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Travel </div>
+                                    <img src="../assets/images/category/business.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Travel </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/development.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Development </div>
+                                    <img src="../assets/images/category/development.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Development </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    
-                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
-                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
+
+                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                        href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
+                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                        href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
 
                 </div>
 
                 <div class="tube-card p-4 mt-3" uk-toggle="cls: tube-card p-4; mode: media; media: 640">
 
-                    <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-2"> <ion-icon name="star" class="mr-2"></ion-icon> Graphic desginer </h4>
+                    <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-2">
+                        <ion-icon name="star" class="mr-2"></ion-icon> Graphic desginer
+                    </h4>
 
                     <div class="relative -mx-1" uk-slider="finite: true">
-                
-                          <div class="uk-slider-container md:px-1 px-2 py-3">
+
+                        <div class="uk-slider-container md:px-1 px-2 py-3">
                             <ul class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-2 uk-grid-small uk-grid">
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-2.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
+                                            <img src="../assets/images/episodes/img-2.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
                                             <span
                                                 class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  The PHP Singleton class  </a>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> The PHP
+                                            Singleton class </a>
                                         <p class="text-sm pt-1"> By <a href="#"> Stella Johnson </a> </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-4.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                            <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
+                                            <img src="../assets/images/episodes/img-4.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
+                                            <span
+                                                class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Larafel $ fliepond   </a>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> Larafel $
+                                            fliepond </a>
                                         <p class="text-sm pt-1"> By <a href="#"> Jesse Stevens </a> </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-1.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                            <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
+                                            <img src="../assets/images/episodes/img-1.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
+                                            <span
+                                                class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Creating a Laravel Package   </a>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> Creating a
+                                            Laravel Package </a>
                                         <p class="text-sm pt-1"> By <a href="#"> John Michael </a> </p>
                                     </div>
                                 </li>
                                 <li>
                                     <a href="episodes-watch.html">
                                         <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                            <img src="../assets/images/episodes/img-3.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                            <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
+                                            <img src="../assets/images/episodes/img-3.jpg" alt=""
+                                                class="w-full h-full absolute inset-0 object-cover">
+                                            <span
+                                                class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
                                                 12:21</span>
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                            <img src="http://demo.foxthemes.net/courseplus-v4.2/assets/images/icon-play.svg"
+                                                class="w-12 h-12 uk-position-center" alt="">
                                         </div>
                                     </a>
                                     <div class="pt-3">
-                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Creating sticky in HTML   </a>
+                                        <a href="episodes-watch.html" class="font-semibold line-clamp-2"> Creating
+                                            sticky in HTML </a>
                                         <p class="text-sm pt-1"> By <a href="#"> Monroe Parker </a> </p>
                                     </div>
-                                </li> 
+                                </li>
                             </ul>
-                
-                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="previous">  <ion-icon name="chevron-back-outline"></ion-icon> </a>
-                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="next"> <ion-icon name="chevron-forward-outline"></ion-icon></a>
-                
-                          </div>
-                
+
+                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                                href="#" uk-slider-item="previous">
+                                <ion-icon name="chevron-back-outline"></ion-icon>
+                            </a>
+                            <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                                href="#" uk-slider-item="next">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                            </a>
+
+                        </div>
+
                     </div>
 
-                </div> 
+                </div>
 
             </div>
         </div>
- 
+
         <!-- sidebar -->
         <div class="sidebar">
             <div class="sidebar_inner" data-simplebar>
-                
+
                 <ul class="side-colored">
-                    <li><a href="explore.html">
-                            <ion-icon name="compass" class="bg-gradient-to-br from-purple-300 p-1 rounded-md side-icon text-opacity-80 text-white to-blue-500">
+                    <li class="active"><a href="explore.html">
+                            <ion-icon name="compass"
+                                class="bg-gradient-to-br from-purple-300 p-1 rounded-md side-icon text-opacity-80 text-white to-blue-500">
                             </ion-icon>
-                            <span> Explore</span>
+                            <span> Explorar</span>
                         </a>
                     </li>
                     <li><a href="courses.html">
-                            <ion-icon name="play-circle" class="bg-gradient-to-br from-yellow-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
+                            <ion-icon name="play-circle"
+                                class="bg-gradient-to-br from-yellow-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
                             </ion-icon>
-                            <span> Courses</span>
+                            <span> Cursos</span>
                         </a>
                     </li>
                     <li><a href="categories.html">
-                            <ion-icon name="albums"  class="bg-gradient-to-br from-green-300 p-1 rounded-md side-icon text-opacity-80 text-white to-green-500">
+                            <ion-icon name="albums"
+                                class="bg-gradient-to-br from-green-300 p-1 rounded-md side-icon text-opacity-80 text-white to-green-500">
                             </ion-icon>
-                            <span> Categories </span>
+                            <span> Categorias </span>
                         </a>
                     </li>
-                    <li class="active"><a href="episodes.html">
-                            <ion-icon name="film" class="bg-gradient-to-br from-pink-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
+                    <li><a href="episodes.html">
+                            <ion-icon name="film"
+                                class="bg-gradient-to-br from-pink-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
                             </ion-icon>
-                            <span> Episodes </span>
+                            <span> Episodios </span>
                         </a>
                     </li>
-                    <li><a href="books.html">
+                    <!-- <li><a href="books.html">
                             <ion-icon name="book" class="bg-gradient-to-br from-yellow-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
                             </ion-icon>
-                            <span> Books </span>
+                            <span> Libros </span>
                         </a>
                     </li>
                     <li><a href="blogs.html">
                             <ion-icon name="newspaper" class="bg-gradient-to-br from-purple-300 p-1 rounded-md side-icon text-opacity-80 text-white to-blue-500">
                             </ion-icon>
-                            <span> Articles</span>
+                            <span> Articulos</span>
                         </a>
                     </li>
-                </ul>
+                </ul> -->
 
-                <ul class="side_links" data-sub-title="Pages">
-                    <li><a href="page-pricing.html"> <ion-icon name="card-outline" class="side-icon"></ion-icon> Pricing  </a></li>
+                    <ul class="side_links" data-sub-title="Perfil">
+                        <!-- <li><a href="page-pricing.html"> <ion-icon name="card-outline" class="side-icon"></ion-icon> Pricing  </a></li>
                     <li><a href="page-help.html"> <ion-icon name="information-circle-outline" class="side-icon"></ion-icon> Help </a></li>
                     <li><a href="page-faq.html"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Faq </a></li>
                     <li><a href="#"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Forum  <span class="soon">soon</span> </a></li>
@@ -768,31 +890,49 @@
                             <li><a href="form-login.html">form login </a></li>
                             <li><a href="form-register.html">form register</a></li> 
                         </ul>
-                    </li>
-                </ul>
+                    </li> -->
 
-                <div class="side_foot_links">
-                    <a href="#">About</a>
-                    <a href="#">Blog </a>
-                    <a href="#">Careers</a>
-                    <a href="#">Support</a>
-                    <a href="#">Contact Us </a>
-                    <a href="#">Developer</a>
-                    <a href="#">Terms of service</a>
-                </div>
+                        <li><a href="#"> Mi Cuenta </a>
+                            <ul>
+                                <li><a href="explore.html">Perfil </a></li>
+                                <li><a href="explore.html">Mis Cursos</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="explore.html">
+                                <ion-icon name="document-outline" class="side-icon"></ion-icon> Terminos
+                            </a></li>
+                        <li><a href="explore.html">
+                                <ion-icon name="document-text-outline" class="side-icon"></ion-icon> Privacidad
+                            </a></li>
+                        <li><a href="explore.html">
+                                <ion-icon name="settings-outline" class="side-icon"></ion-icon> Ajustes
+                            </a></li>
+                    </ul>
+
+                    <div class="side_foot_links">
+                        <a href="#">La Academia</a>
+                        <a href="#">Blog </a>
+                        <a href="#">Careers</a>
+                        <a href="#">Soporte</a>
+                        <a href="#">Contactanos </a>
+                        <!-- <a href="#">Developer</a> -->
+                        <a href="#">Terminos de Servicio</a>
+                    </div>
 
             </div>
 
             <div class="side_overly" uk-toggle="target: #wrapper ; cls: is-collapse is-active"></div>
         </div>
 
-        
+
     </div>
 
- 
+
     <!-- Javascript
     ================================================== -->
-    <script src="../../../code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../../../code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="../assets/js/uikit.js"></script>
     <script src="../assets/js/tippy.all.min.js"></script>
     <script src="../assets/js/simplebar.js"></script>

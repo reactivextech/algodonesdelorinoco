@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Courseplus Template</title>
+    <title>FORMALGODÓN - PAGINA PRINCIPAL</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Courseplus is - Professional A unique and beautiful collection of UI elements">
@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="../assets/css/uikit.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/tailwind.css">
-  
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+
 </head>
 
 <body>
@@ -51,22 +52,23 @@
                 <div class="right-side">
 
                     <!-- Header search box  -->
-                    <div class="header_search"><i class="uil-search-alt"></i>
-                        <input value="" type="text" class="form-control" placeholder=" Quick search for anything.." autocomplete="off">
+                    <div class="header_search"><i class="uil-search-alt text-white"></i>
+                        <input value="" type="text" class="form-control text-white"
+                            placeholder=" Buscar cursos y talleres" autocomplete="off">
                         <div uk-drop="mode: click;offset:10" class="header_search_dropdown">
 
-                            <h4 class="search_title"> Recently </h4>
+                            <h4 class="search_title"> Recientes </h4>
                             <ul>
                                 <li>
                                     <a href="#">
                                         <img src="../assets/images/avatars/avatar-1.jpg" alt="" class="list-avatar">
-                                        <div class="list-name">  Erica Jones </div>
+                                        <div class="list-name"> Erica Jones </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
                                         <img src="../assets/images/avatars/avatar-2.jpg" alt="" class="list-avatar">
-                                        <div class="list-name">  Coffee  Addicts </div>
+                                        <div class="list-name"> Coffee Addicts </div>
                                     </a>
                                 </li>
                                 <li>
@@ -78,13 +80,13 @@
                                 <li>
                                     <a href="#">
                                         <img src="../assets/images/avatars/avatar-4.jpg" alt="" class="list-avatar">
-                                        <div class="list-name"> Property Rent And Sale  </div>
+                                        <div class="list-name"> Property Rent And Sale </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
                                         <img src="../assets/images/avatars/avatar-5.jpg" alt="" class="list-avatar">
-                                        <div class="list-name">  Erica Jones </div>
+                                        <div class="list-name"> Erica Jones </div>
                                     </a>
                                 </li>
                             </ul>
@@ -95,11 +97,12 @@
                     <div>
 
                         <!-- cart -->
-                        <a href="#" class="header_widgets">
+                        <!-- <a href="#" class="header_widgets">
                             <ion-icon name="cart-outline" class="is-icon"></ion-icon>
+                            <
                         </a>
                         <div uk-drop="mode: click" class="dropdown_cart">
-                            <h4 class="cart-headline"> My Cart </h4>
+                            <h4 class="cart-headline"> Carrito </h4>
                             <ul class="dropdown_cart_scrollbar" data-simplebar>
                                 <li>
                                     <div class="cart_avatar">
@@ -174,27 +177,30 @@
                                     </div>
                                 </li>
                             </ul>
-
+        
                             <div class="cart_footer">
                                 <p> Subtotal : $ 320 </p>
                                 <h1> Total :  <strong> $ 320</strong> </h1>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- notification -->
                         <a href="#" class="header_widgets">
-                            <ion-icon name="mail-outline" class="is-icon"></ion-icon>
+                            <!-- <ion-icon name="mail-outline" class="is-icon"></ion-icon> -->
+                            <i class="fa fa-bell"></i>
                         </a>
                         <div uk-drop="mode: click" class="header_dropdown">
                             <div class="drop_headline">
-                                <h4>Notifications </h4>
+                                <h4>Notificaciones </h4>
                                 <div class="btn_action">
                                     <div class="btn_action">
                                         <a href="#">
-                                            <ion-icon name="settings-outline" uk-tooltip="title: Notifications settings ; pos: left"></ion-icon>
+                                            <ion-icon name="settings-outline"
+                                                uk-tooltip="title: Notifications settings ; pos: left"></ion-icon>
                                         </a>
                                         <a href="#">
-                                            <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
+                                            <ion-icon name="checkbox-outline"
+                                                uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
                                         </a>
                                     </div>
                                 </div>
@@ -203,19 +209,21 @@
                             <ul class="dropdown_scrollbar" data-simplebar>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
-                                            <p> <strong>Adrian Mohani</strong> Like Your Comment On Course
+                                            <p> <strong>Adrian Mohani</strong> le gusta tu comentario del curso
                                                 <span class="text-link">Javascript Introduction </span>
                                             </p>
-                                            <span class="time-ago"> 2 hours ago </span>
+                                            <span class="time-ago"> Hace 2 horas </span>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <p>
@@ -228,7 +236,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <p>
@@ -241,7 +250,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <p>
@@ -253,30 +263,34 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="see-all">See all</a>
+                            <a href="#" class="see-all">Ver todos</a>
                         </div>
 
                         <!-- messages -->
                         <a href="#" class="header_widgets">
-                            <ion-icon name="notifications-outline" class="is-icon"></ion-icon>
+                            <!-- <ion-icon name="notifications-outline" class="is-icon"></ion-icon> -->
+                            <i class="fa fa-envelope"></i>
                             <span> 2 </span>
                         </a>
                         <div uk-drop="mode: click" class="header_dropdown">
                             <div class="drop_headline">
-                                <h4>Messages </h4>
+                                <h4>Mensajes </h4>
                                 <div class="btn_action">
                                     <a href="#">
-                                        <ion-icon name="settings-outline" uk-tooltip="title: Message settings ; pos: left"></ion-icon>
+                                        <ion-icon name="settings-outline"
+                                            uk-tooltip="title: Message settings ; pos: left"></ion-icon>
                                     </a>
                                     <a href="#">
-                                        <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
+                                        <ion-icon name="checkbox-outline"
+                                            uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
                                     </a>
                                 </div>
                             </div>
                             <ul class="dropdown_scrollbar" data-simplebar>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> John menathon </strong> <span class="time"> 6:43 PM</span>
@@ -286,7 +300,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Zara Ali </strong> <span class="time">12:43 PM</span>
@@ -296,7 +311,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Mohamed Ali </strong> <span class="time"> Wed</span>
@@ -306,7 +322,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> John menathon </strong> <span class="time"> Sun </span>
@@ -316,7 +333,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Zara Ali </strong> <span class="time"> Fri </span>
@@ -326,7 +344,8 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg"
+                                                alt="">
                                         </div>
                                         <div class="drop_content">
                                             <strong> Mohamed Ali </strong> <span class="time">1 Week ago</span>
@@ -335,10 +354,10 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="see-all">See all</a>
+                            <a href="#" class="see-all">Ver todos</a>
                         </div>
 
-                         <!-- profile -->
+                        <!-- profile -->
                         <a href="#">
                             <img src="../assets/images/avatars/placeholder.png" class="header_widgets_avatar" alt="">
                         </a>
@@ -350,62 +369,62 @@
                                             <img src="../assets/images/avatars/avatar-2.jpg" alt="">
                                         </div>
                                         <div class="user_name">
-                                            <div> Stella Johnson </div>
-                                            <span> @Johnson </span>
+                                            <div> Pedro Perez </div>
+                                            <span> @pperez </span>
                                         </div>
                                     </a>
                                 </li>
                                 <li>
                                     <hr>
                                 </li>
-                                <li>
+                                <!-- <li> 
                                     <a href="#" class="is-link">
                                         <ion-icon name="rocket-outline" class="is-icon"></ion-icon> <span>  Upgrade Membership  </span>
                                     </a>
-                                </li>
+                                </li>  -->
                                 <li>
                                     <hr>
                                 </li>
                                 <li>
                                     <a href="page-setting.html">
                                         <ion-icon name="person-circle-outline" class="is-icon"></ion-icon>
-                                         My Account
+                                        Mi cuenta
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="group-feed.html">
+                                    <a href="#">
                                         <ion-icon name="card-outline" class="is-icon"></ion-icon>
-                                        Subscriptions
+                                        Subscripcion
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="group-feed.html">
+                                    <a href="#">
                                         <ion-icon name="color-wand-outline" class="is-icon"></ion-icon>
-                                        My Billing
+                                        Mis Cursos
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="group-feed.html">
+                                    <a href="#">
                                         <ion-icon name="settings-outline" class="is-icon"></ion-icon>
-                                        Account Settings
+                                        Configuración
                                     </a>
                                 </li>
                                 <li>
                                     <hr>
                                 </li>
-                                <li>
+                                <!-- <li> 
                                     <a href="#" id="night-mode" class="btn-night-mode" onclick="UIkit.notification({ message: 'Hmm...  <strong> Night mode </strong> feature is not available yet. ' , pos: 'bottom-right'  })">
                                         <ion-icon name="moon-outline" class="is-icon"></ion-icon>
-                                         Night mode
+                                         Modo oscuro
                                         <span class="btn-night-mode-switch">
                                             <span class="uk-switch-button"></span>
                                         </span>
                                     </a>
-                                </li>
+                                </li> -->
                                 <li>
-                                    <a href="group-feed.html">
+                                    <a href="index.html">
                                         <ion-icon name="log-out-outline" class="is-icon"></ion-icon>
-                                        Log Out
+                                        Salir
                                     </a>
                                 </li>
                             </ul>
@@ -420,27 +439,30 @@
         <!-- Main Contents -->
         <div class="main_content">
             <div class="container">
- 
- 
+
+
                 <div class="mb-2">
-                    <div class="text-xl font-semibold">  The world's largest selection of courses  </div>
-                    <div class="text-sm mt-2">  Choose from 130,000 online video courses with new additions published every month </div>
+                    <div class="text-xl font-semibold"> La selección de cursos más grande del mundo </div>
+                    <div class="text-sm mt-2"> Elija entre 130,000 cursos de video en línea con nuevas incorporaciones
+                        publicadas cada mes </div>
                 </div>
 
                 <nav class="cd-secondary-nav border-b md:m-0 -mx-4 nav-small">
                     <ul>
-                        <li class="active"><a href="#" class="lg:px-2">   Python </a></li>
+                        <li class="active"><a href="#" class="lg:px-2"> Python </a></li>
                         <li><a href="#" class="lg:px-2"> Web development </a></li>
-                        <li><a href="#" class="lg:px-2"> JavaScript  </a></li>
-                        <li><a href="#" class="lg:px-2"> Softwares  </a></li>
-                        <li><a href="#" class="lg:px-2"> Drawing  </a></li>
+                        <li><a href="#" class="lg:px-2"> JavaScript </a></li>
+                        <li><a href="#" class="lg:px-2"> Softwares </a></li>
+                        <li><a href="#" class="lg:px-2"> Drawing </a></li>
                     </ul>
                 </nav>
 
                 <!--  slider -->
                 <div class="mt-3">
 
-                    <h4 class="py-3 border-b font-semibold text-grey-700  mx-1 mb-4" hidden> <ion-icon name="star"></ion-icon> Featured today </h4>
+                    <h4 class="py-3 border-b font-semibold text-grey-700  mx-1 mb-4" hidden>
+                        <ion-icon name="star"></ion-icon> Featured today
+                    </h4>
 
                     <div class="relative" uk-slider="finite: true">
 
@@ -458,9 +480,10 @@
                                                 <span class="icon-play"></span>
                                             </div>
                                             <div class="card-body p-4">
-                                                <div class="font-semibold line-clamp-2"> Learn JavaScript and Express to become a professional JavaScript developer. </div>
+                                                <div class="font-semibold line-clamp-2"> Learn JavaScript and Express to
+                                                    become a professional JavaScript developer. </div>
                                                 <div class="flex space-x-2 items-center text-sm pt-3">
-                                                    <div> 13 hours  </div>
+                                                    <div> 13 hours </div>
                                                     <div> · </div>
                                                     <div> 32 lectures </div>
                                                 </div>
@@ -483,15 +506,16 @@
                                                 <span class="icon-play"></span>
                                             </div>
                                             <div class="card-body p-4">
-                                                <div class="font-semibold line-clamp-2">Learn Angular Fundamentals From beginning to advance </div>
+                                                <div class="font-semibold line-clamp-2">Learn Angular Fundamentals From
+                                                    beginning to advance </div>
                                                 <div class="flex space-x-2 items-center text-sm pt-3">
-                                                    <div>  26 hours  </div>
+                                                    <div> 26 hours </div>
                                                     <div>·</div>
                                                     <div> 26 lectures </div>
                                                 </div>
                                                 <div class="pt-1 flex items-center justify-between">
                                                     <div class="text-sm font-medium"> Stella Johnson </div>
-                                                    <div class="text-lg font-semibold"> $18.99  </div>
+                                                    <div class="text-lg font-semibold"> $18.99 </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -508,9 +532,10 @@
                                                 <span class="icon-play"></span>
                                             </div>
                                             <div class="card-body p-4">
-                                                <div class="font-semibold line-clamp-2">Responsive Web Design Essentials HTML5 CSS3 Bootstrap </div>
+                                                <div class="font-semibold line-clamp-2">Responsive Web Design Essentials
+                                                    HTML5 CSS3 Bootstrap </div>
                                                 <div class="flex space-x-2 items-center text-sm pt-3">
-                                                    <div>  18 hours  </div>
+                                                    <div> 18 hours </div>
                                                     <div>·</div>
                                                     <div> 42 lectures </div>
                                                 </div>
@@ -533,11 +558,12 @@
                                                 <span class="icon-play"></span>
                                             </div>
                                             <div class="card-body p-4">
-                                                <div class="font-semibold line-clamp-2"> Learn JavaScript and Express to become a professional JavaScript developer. </div>
+                                                <div class="font-semibold line-clamp-2"> Learn JavaScript and Express to
+                                                    become a professional JavaScript developer. </div>
                                                 <div class="flex space-x-2 items-center text-sm pt-3">
-                                                    <div> 32 hours  </div>
+                                                    <div> 32 hours </div>
                                                     <div>·</div>
-                                                    <div>  lec 4 </div>
+                                                    <div> lec 4 </div>
                                                 </div>
                                                 <div class="pt-1 flex items-center justify-between">
                                                     <div class="text-sm font-medium"> Jesse Stevens </div>
@@ -552,8 +578,10 @@
 
                             </ul>
 
-                            <a class="absolute bg-white top-1/4 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
-                            <a class="absolute bg-white top-1/4 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
+                            <a class="absolute bg-white top-1/4 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                                href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
+                            <a class="absolute bg-white top-1/4 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                                href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
 
                         </div>
                     </div>
@@ -572,62 +600,81 @@
                 <div class="relative -mt-3" uk-slider="finite: true">
 
                     <div class="uk-slider-container px-1 py-3">
-                        <ul class="uk-slider-items uk-child-width-1-5@m uk-child-width-1-3@s uk-child-width-1-2 uk-grid-small uk-grid">
+                        <ul
+                            class="uk-slider-items uk-child-width-1-5@m uk-child-width-1-3@s uk-child-width-1-2 uk-grid-small uk-grid">
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/design.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Design </div>
+                                    <img src="../assets/images/category/design.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Design </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/marketing.jpg" class="absolute w-full h-full object-cover"
-                                        alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Marketing </div>
+                                    <img src="../assets/images/category/marketing.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Marketing </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/it-and-software.jpg" class="absolute w-full h-full object-cover"
-                                        alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Software</div>
+                                    <img src="../assets/images/category/it-and-software.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Software</div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/music.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Music </div>
+                                    <img src="../assets/images/category/music.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Music </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/business.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Travel </div>
+                                    <img src="../assets/images/category/business.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Travel </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="rounded-md overflow-hidden relative w-full h-36">
-                                    <div class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
+                                    <div
+                                        class="absolute w-full h-3/4 -bottom-12 bg-gradient-to-b from-transparent to-gray-800 z-10">
                                     </div>
-                                    <img src="../assets/images/category/development.jpg" class="absolute w-full h-full object-cover" alt="">
-                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg"> Development </div>
+                                    <img src="../assets/images/category/development.jpg"
+                                        class="absolute w-full h-full object-cover" alt="">
+                                    <div class="absolute bottom-0 w-full p-3 text-white z-20 font-semibold text-lg">
+                                        Development </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
 
-                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
-                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
+                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                        href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
+                    <a class="absolute bg-white top-16 flex items-center justify-center p-2 -right-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white"
+                        href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
 
                 </div>
 
@@ -637,24 +684,41 @@
 
                     <div class="">
                         <div class="text-xl font-semibold"> Web Development Courses </div>
-                        <div class="text-sm mt-2 font-medium text-gray-500 leading-6">  Choose from +10.000 courses with new  additions published every months  </div>
+                        <div class="text-sm mt-2 font-medium text-gray-500 leading-6"> Choose from +10.000 courses with
+                            new additions published every months </div>
                     </div>
 
                     <div class="flex items-center justify-end">
 
                         <div class="flex space-x-1 bg-gray-100 rounded-md p-1 text-lg">
-                            <a href="#" class="py-1.5 px-3 rounded-md bg-white shadow" data-tippy-placement="top" title="Grid view">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                            <a href="#" class="py-1.5 px-3 rounded-md bg-white shadow" data-tippy-placement="top"
+                                title="Grid view">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
                             </a>
-                            <a href="courses-list.html" class="py-1.5 px-3 rounded-md" data-tippy-placement="top" title="List view">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                            <a href="courses-list.html" class="py-1.5 px-3 rounded-md" data-tippy-placement="top"
+                                title="List view">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z">
+                                    </path>
+                                </svg>
                             </a>
                         </div>
 
-                        <a href="#" class="py-2.5 px-3 ml-2 text-lg rounded-md bg-gray-100"
-                        data-tippy-placement="top" title="Filter"
-                        uk-toggle="target: #course-filter;flip: true">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd"></path></svg>
+                        <a href="#" class="py-2.5 px-3 ml-2 text-lg rounded-md bg-gray-100" data-tippy-placement="top"
+                            title="Filter" uk-toggle="target: #course-filter;flip: true">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
                         </a>
 
                         <div class="w-40" hidden="">
@@ -680,7 +744,8 @@
                                 <span class="icon-play"></span>
                             </div>
                             <div class="card-body p-4">
-                                <div class="font-semibold line-clamp-2"> Learn Angular Fundamentals From beginning to advance lavel
+                                <div class="font-semibold line-clamp-2"> Learn Angular Fundamentals From beginning to
+                                    advance lavel
                                 </div>
                                 <div class="flex space-x-2 items-center text-sm pt-3">
                                     <div> 32 hours </div>
@@ -688,7 +753,7 @@
                                     <div> lec 4 </div>
                                 </div>
                                 <div class="pt-1 flex items-center justify-between">
-                                    <div class="text-sm font-semibold"> Jesse Stevens  </div>
+                                    <div class="text-sm font-semibold"> Jesse Stevens </div>
                                     <div class="text-lg font-semibold"> $29.99 </div>
                                 </div>
                             </div>
@@ -702,7 +767,8 @@
                                 <span class="icon-play"></span>
                             </div>
                             <div class="card-body p-4">
-                                <div class="font-semibold line-clamp-2">Build Responsive Real World Websites with HTML5 and CSS3 </div>
+                                <div class="font-semibold line-clamp-2">Build Responsive Real World Websites with HTML5
+                                    and CSS3 </div>
                                 <div class="flex space-x-2 items-center text-sm pt-3">
                                     <div> 13 hours </div>
                                     <div>·</div>
@@ -723,14 +789,15 @@
                                 <span class="icon-play"></span>
                             </div>
                             <div class="card-body p-4">
-                                <div class="font-semibold line-clamp-2">C# Developers Double Your Coding Speed with Visual Studio </div>
+                                <div class="font-semibold line-clamp-2">C# Developers Double Your Coding Speed with
+                                    Visual Studio </div>
                                 <div class="flex space-x-2 items-center text-sm pt-3">
                                     <div> 18 hours </div>
                                     <div>·</div>
                                     <div>42 lectures </div>
                                 </div>
                                 <div class="pt-1 flex items-center justify-between">
-                                    <div class="text-sm font-semibold"> Stella Johnson  </div>
+                                    <div class="text-sm font-semibold"> Stella Johnson </div>
                                     <div class="text-lg font-semibold"> $18.99 </div>
                                 </div>
                             </div>
@@ -744,7 +811,8 @@
                                 <span class="icon-play"></span>
                             </div>
                             <div class="card-body p-4">
-                                <div class="font-semibold line-clamp-2"> Learn JavaScript and Express to become a professional
+                                <div class="font-semibold line-clamp-2"> Learn JavaScript and Express to become a
+                                    professional
                                     JavaScript developer. </div>
                                 <div class="flex space-x-2 items-center text-sm pt-3">
                                     <div> 13 hours </div>
@@ -752,7 +820,7 @@
                                     <div>32 lectures </div>
                                 </div>
                                 <div class="pt-1 flex items-center justify-between">
-                                    <div class="text-sm font-semibold"> John Michael  </div>
+                                    <div class="text-sm font-semibold"> John Michael </div>
                                     <div class="text-lg font-semibold"> $14.99 </div>
                                 </div>
                             </div>
@@ -766,14 +834,15 @@
                                 <span class="icon-play"></span>
                             </div>
                             <div class="card-body p-4">
-                                <div class="font-semibold line-clamp-2"> Learn and Understand AngularJS to become a professional  developer</div>
+                                <div class="font-semibold line-clamp-2"> Learn and Understand AngularJS to become a
+                                    professional developer</div>
                                 <div class="flex space-x-2 items-center text-sm pt-3">
                                     <div> 26 hours </div>
                                     <div>·</div>
                                     <div>26 lectures </div>
                                 </div>
                                 <div class="pt-1 flex items-center justify-between">
-                                    <div class="text-sm font-semibold"> Stella Johnson  </div>
+                                    <div class="text-sm font-semibold"> Stella Johnson </div>
                                     <div class="text-lg font-semibold"> $18.99 </div>
                                 </div>
                             </div>
@@ -787,14 +856,15 @@
                                 <span class="icon-play"></span>
                             </div>
                             <div class="card-body p-4">
-                                <div class="font-semibold line-clamp-2">Responsive Web Design Essentials HTML5 CSS3 and Bootstrap </div>
+                                <div class="font-semibold line-clamp-2">Responsive Web Design Essentials HTML5 CSS3 and
+                                    Bootstrap </div>
                                 <div class="flex space-x-2 items-center text-sm pt-3">
                                     <div> 18 hours </div>
                                     <div>·</div>
                                     <div>42 lectures </div>
                                 </div>
                                 <div class="pt-1 flex items-center justify-between">
-                                    <div class="text-sm font-semibold"> Monroe Parker   </div>
+                                    <div class="text-sm font-semibold"> Monroe Parker </div>
                                     <div class="text-lg font-semibold"> $11.99 </div>
                                 </div>
                             </div>
@@ -820,47 +890,57 @@
             <div class="sidebar_inner" data-simplebar>
 
                 <ul class="side-colored">
-                    <li><a href="explore.html">
-                            <ion-icon name="compass" class="side-icon"> </ion-icon>
-                            <span> Explore</span>
+                    <li class="active"><a href="explore.html">
+                            <ion-icon name="compass"
+                                class="bg-gradient-to-br from-purple-300 p-1 rounded-md side-icon text-opacity-80 text-white to-blue-500">
+                            </ion-icon>
+                            <span> Explorar</span>
                         </a>
                     </li>
-                    <li class="active"><a href="courses.html">
-                            <ion-icon name="play-circle" class="side-icon"> </ion-icon>
-                            <span> Courses</span>
+                    <li><a href="courses.html">
+                            <ion-icon name="play-circle"
+                                class="bg-gradient-to-br from-yellow-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
+                            </ion-icon>
+                            <span> Cursos</span>
                         </a>
                     </li>
                     <li><a href="categories.html">
-                            <ion-icon name="albums" class="side-icon"> </ion-icon>
-                            <span> Categories </span>
+                            <ion-icon name="albums"
+                                class="bg-gradient-to-br from-green-300 p-1 rounded-md side-icon text-opacity-80 text-white to-green-500">
+                            </ion-icon>
+                            <span> Categorias </span>
                         </a>
                     </li>
                     <li><a href="episodes.html">
-                            <ion-icon name="film" class="side-icon">  </ion-icon>
-                            <span> Episodes </span>
+                            <ion-icon name="film"
+                                class="bg-gradient-to-br from-pink-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
+                            </ion-icon>
+                            <span> Episodios </span>
                         </a>
                     </li>
-                    <li><a href="books.html">
-                            <ion-icon name="book" class="side-icon"> </ion-icon>
-                            <span> Books </span>
+                    <!-- <li><a href="books.html">
+                            <ion-icon name="book" class="bg-gradient-to-br from-yellow-300 p-1 rounded-md side-icon text-opacity-80 text-white to-red-500">
+                            </ion-icon>
+                            <span> Libros </span>
                         </a>
                     </li>
                     <li><a href="blogs.html">
-                            <ion-icon name="newspaper" class="side-icon">  </ion-icon>
-                            <span> Articles</span>
+                            <ion-icon name="newspaper" class="bg-gradient-to-br from-purple-300 p-1 rounded-md side-icon text-opacity-80 text-white to-blue-500">
+                            </ion-icon>
+                            <span> Articulos</span>
                         </a>
                     </li>
-                </ul>
-                
-                <ul class="side_links" data-sub-title="Pages">
-                    <li><a href="page-pricing.html"> <ion-icon name="card-outline" class="side-icon"></ion-icon> Pricing  </a></li>
+                </ul> -->
+
+                    <ul class="side_links" data-sub-title="Perfil">
+                        <!-- <li><a href="page-pricing.html"> <ion-icon name="card-outline" class="side-icon"></ion-icon> Pricing  </a></li>
                     <li><a href="page-help.html"> <ion-icon name="information-circle-outline" class="side-icon"></ion-icon> Help </a></li>
                     <li><a href="page-faq.html"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Faq </a></li>
                     <li><a href="#"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Forum  <span class="soon">soon</span> </a></li>
                     <li><a href="page-term.html"> <ion-icon name="document-outline" class="side-icon"></ion-icon> Term </a></li>
-                    <li><a href="page-privacy.html"> <ion-icon name="document-text-outline" class="side-icon"></ion-icon> Privacy </a></li>
-                    <li><a href="page-setting.html"> <ion-icon name="settings-outline" class="side-icon"></ion-icon> Setting </a></li>
-                    <li><a href="#"> Development  </a>
+                    <li><a href="page-privacy.html"> <ion-icon name="document-text-outline" class="side-icon"></ion-icon> Privacy </a></li> 
+                    <li><a href="page-setting.html"> <ion-icon name="settings-outline" class="side-icon"></ion-icon> Setting </a></li> 
+                    <li><a href="#"> Development  </a> 
                         <ul>
                             <li><a href="development-elements.html"> Elements  </a></li>
                             <li><a href="development-components.html"> Compounents </a></li>
@@ -868,23 +948,40 @@
                             <li><a href="development-icons.html"> Icons </a></li>
                         </ul>
                     </li>
-                    <li><a href="#"> Authentication  </a>
+                    <li><a href="#"> Authentication  </a> 
                         <ul>
                             <li><a href="form-login.html">form login </a></li>
-                            <li><a href="form-register.html">form register</a></li>
+                            <li><a href="form-register.html">form register</a></li> 
                         </ul>
-                    </li>
-                </ul>
+                    </li> -->
 
-                <div class="side_foot_links">
-                    <a href="#">About</a>
-                    <a href="#">Blog </a>
-                    <a href="#">Careers</a>
-                    <a href="#">Support</a>
-                    <a href="#">Contact Us </a>
-                    <a href="#">Developer</a>
-                    <a href="#">Terms of service</a>
-                </div>
+                        <li><a href="#"> Mi Cuenta </a>
+                            <ul>
+                                <li><a href="explore.html">Perfil </a></li>
+                                <li><a href="explore.html">Mis Cursos</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="explore.html">
+                                <ion-icon name="document-outline" class="side-icon"></ion-icon> Terminos
+                            </a></li>
+                        <li><a href="explore.html">
+                                <ion-icon name="document-text-outline" class="side-icon"></ion-icon> Privacidad
+                            </a></li>
+                        <li><a href="explore.html">
+                                <ion-icon name="settings-outline" class="side-icon"></ion-icon> Ajustes
+                            </a></li>
+                    </ul>
+
+                    <div class="side_foot_links">
+                        <a href="#">La Academia</a>
+                        <a href="#">Blog </a>
+                        <a href="#">Careers</a>
+                        <a href="#">Soporte</a>
+                        <a href="#">Contactanos </a>
+                        <!-- <a href="#">Developer</a> -->
+                        <a href="#">Terminos de Servicio</a>
+                    </div>
 
             </div>
 
@@ -898,78 +995,88 @@
         <div class="uk-offcanvas-bar bg-white lg:w-96 w-full overflow-hidden flex justify-between flex-col">
 
             <div class="px-5 py-2.5 flex items-center space-x-2 shadow-sm">
-                <ion-icon name="arrow-back" data-tippy-placement="right" title="Close filter" class="text-xl uk-offcanvas-close relative inset-0 p-0 cursor-pointer"></ion-icon>
+                <ion-icon name="arrow-back" data-tippy-placement="right" title="Close filter"
+                    class="text-xl uk-offcanvas-close relative inset-0 p-0 cursor-pointer"></ion-icon>
                 <h3 class="font-semibold text-lg"> Filter </h3>
             </div>
             <div class="p-6 pt-3 flex-1 lg:h-1/6 mr-1" data-simplebar>
 
-                <h3 class="font-semibold text-lg"> Skill Levels  </h3>
+                <h3 class="font-semibold text-lg"> Skill Levels </h3>
                 <div> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sediam nibh </div>
 
                 <ul class="ml-2 mb-4 mt-1 -space-y-2">
                     <li class="radio w-full">
                         <input id="radio-1" name="radio" type="radio" checked>
-                        <label for="radio-1" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="radio-1" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             Beginner <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                     <li class="radio w-full">
                         <input id="radio-2" name="radio" type="radio">
-                        <label for="radio-2" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="radio-2" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             Entermidate <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                     <li class="radio w-full">
                         <input id="radio-3" name="radio" type="radio">
-                        <label for="radio-3" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="radio-3" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             Expert <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                 </ul>
 
-                <h3 class="font-semibold text-lg"> Pricing  </h3>
+                <h3 class="font-semibold text-lg"> Pricing </h3>
                 <div> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sediam nibh </div>
 
                 <ul class="ml-2 mb-4 mt-2 -space-y-2">
                     <li class="radio w-full">
                         <input id="Paid-1" name="paid" type="radio" checked>
-                        <label for="Paid-1" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="Paid-1" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             Paid <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                     <li class="radio w-full">
                         <input id="paid-2" name="paid" type="radio">
-                        <label for="paid-2" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="paid-2" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             Free <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                 </ul>
 
-                <h3 class="font-semibold text-lg"> Duration time  </h3>
+                <h3 class="font-semibold text-lg"> Duration time </h3>
                 <div> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sediam nibh </div>
 
                 <ul class="ml-2 mb-4 mt-2 -space-y-2">
                     <li class="radio w-full">
                         <input id="duration-1" name="duration" type="radio" checked>
-                        <label for="duration-1" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="duration-1" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             +5 Hourse <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                     <li class="radio w-full">
                         <input id="duration-2" name="duration" type="radio">
-                        <label for="duration-2" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="duration-2" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             +10 Hourse <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                     <li class="radio w-full">
                         <input id="duration-3" name="duration" type="radio">
-                        <label for="duration-3" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="duration-3" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             +25 Hourse <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
                     <li class="radio w-full">
                         <input id="duration-4" name="duration" type="radio">
-                        <label for="duration-4" class="flex justify-between p-2 hover:bg-gray-100 rounded-md" style="padding-left: 20px;">
+                        <label for="duration-4" class="flex justify-between p-2 hover:bg-gray-100 rounded-md"
+                            style="padding-left: 20px;">
                             +30 Hourse <span class="radio-label" style="position: relative"></span>
                         </label>
                     </li>
@@ -984,7 +1091,7 @@
 
         </div>
     </div>
- 
+
 
     <!-- Javascript
     ================================================== -->
