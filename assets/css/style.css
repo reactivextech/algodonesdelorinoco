@@ -80,6 +80,24 @@
     color: #fff;
     margin-right: .25rem;
 }
+.primary-modal .e5538-8.x-anchor .x-anchor-text-primary,
+.primary-modal .e5538-10.x-anchor .x-anchor-text-primary {
+	color: rgb(1, 11, 46) !important;
+}
+.primary-modal .e5538-8.x-anchor, .primary-modal .e5538-10.x-anchor {
+	background-color: rgb(0, 222, 143) !important;
+}
+.primary-modal .e5538-8.x-anchor:hover,
+.primary-modal .e5538-8.x-anchor[class*="active"],
+[data-x-effect-provider*="colors"]:hover .primary-modal .e5538-8.x-anchor,
+.primary-modal .e5538-10.x-anchor:hover,
+.primary-modal .e5538-10.x-anchor[class*="active"],
+[data-x-effect-provider*="colors"]:hover .primary-modal .e5538-10.x-anchor {
+	background-color: rgb(0, 222, 163) !important;
+}
+.primary-modal .e5538-6.x-row {
+    padding: 1em 0em 0em 0em;
+}
 /* .modal-title {
     font-size: 1.5em !important;
     letter-spacing: 1px !important;
