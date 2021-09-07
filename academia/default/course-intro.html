@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <title>Courseplus Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Courseplus is - Professional A unique and beautiful collection of UI elements">
+
+    <!-- Favicon -->
+    <link href="../assets/images/favicon.png" rel="icon" type="image/png">
+
+    <!-- icons
+    ================================================== -->
+    <link rel="stylesheet" href="../assets/css/icons.css">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="../assets/css/uikit.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/tailwind.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="is-verticle">
+
+        <!--  Header  -->
+        <header uk-sticky> 
+            <div class="header_inner">
+                <div class="left-side">
+    
+                    <!-- Logo -->
+                    <div id="logo">
+                        <a href="explore.html">
+                            <img src="../assets/images/logo.png" alt="">
+                            <img src="../assets/images/logo-light.png" class="logo_inverse" alt="">
+                            <img src="../assets/images/logo-mobile.png" class="logo_mobile" alt="">
+                        </a>
+                    </div>
+    
+                    <!-- icon menu for mobile -->
+                    <div class="triger" uk-toggle="target: #wrapper ; cls: is-active">
+                    </div>
+    
+                </div>
+                <div class="right-side">
+     
+                    <!-- Header search box  -->
+                    <div class="header_search"><i class="uil-search-alt"></i> 
+                        <input value="" type="text" class="form-control" placeholder=" Quick search for anything.." autocomplete="off">
+                        <div uk-drop="mode: click;offset:10" class="header_search_dropdown">
+                               
+                            <h4 class="search_title"> Recently </h4>
+                            <ul>
+                                <li> 
+                                    <a href="#">  
+                                        <img src="../assets/images/avatars/avatar-1.jpg" alt="" class="list-avatar">
+                                        <div class="list-name">  Erica Jones </div>
+                                    </a> 
+                                </li> 
+                                <li> 
+                                    <a href="#">  
+                                        <img src="../assets/images/avatars/avatar-2.jpg" alt="" class="list-avatar">
+                                        <div class="list-name">  Coffee  Addicts </div>
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="#">  
+                                        <img src="../assets/images/avatars/avatar-3.jpg" alt="" class="list-avatar">
+                                        <div class="list-name"> Mountain Riders </div>
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="#">  
+                                        <img src="../assets/images/avatars/avatar-4.jpg" alt="" class="list-avatar">
+                                        <div class="list-name"> Property Rent And Sale  </div>
+                                    </a> 
+                                </li>
+                                <li> 
+                                    <a href="#">  
+                                        <img src="../assets/images/avatars/avatar-5.jpg" alt="" class="list-avatar">
+                                        <div class="list-name">  Erica Jones </div>
+                                    </a> 
+                                </li>
+                            </ul>
+    
+                        </div>
+                    </div>
+
+
+                    <div>
+
+                        <!-- cart -->
+                        <a href="#" class="header_widgets">
+                            <ion-icon name="cart-outline" class="is-icon"></ion-icon>
+                        </a>
+                        <div uk-drop="mode: click" class="dropdown_cart">
+                            <h4 class="cart-headline"> My Cart </h4>
+                            <ul class="dropdown_cart_scrollbar" data-simplebar>
+                                <li>
+                                    <div class="cart_avatar">
+                                        <img src="../assets/images/courses/img-1.jpg" alt="">
+                                    </div>
+                                    <div class="cart_text">
+                                        <h4> Learn Angular Beginner to Advanced Fundamentals </h4>
+                                    </div>
+                                    <div class="cart_price">
+                                        <span> $12.99 </span>
+                                        <button class="type"> Remove</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cart_avatar">
+                                        <img src="../assets/images/courses/img-1.jpg" alt="">
+                                    </div>
+                                    <div class="cart_text">
+                                        <h4>  Become a Web Developer from Scratch to Advanced </h4>
+                                    </div>
+                                    <div class="cart_price">
+                                        <span> $19.99 </span>
+                                        <button class="type"> Remove</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cart_avatar">
+                                        <img src="../assets/images/courses/img-2.jpg" alt="">
+                                    </div>
+                                    <div class="cart_text">
+                                        <h4> Angular Fundamentals for Beginner to advance </h4>
+                                    </div>
+                                    <div class="cart_price">
+                                        <span> $12.99 </span>
+                                        <button class="type"> Remove</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cart_avatar">
+                                        <img src="../assets/images/courses/img-3.jpg" alt="">
+                                    </div>
+                                    <div class="cart_text">
+                                        <h4> Ultimate Web Developer Course for Beginners 2020</h4>
+                                    </div>
+                                    <div class="cart_price">
+                                        <span> $14.99 </span>
+                                        <button class="type"> Remove</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cart_avatar">
+                                        <img src="../assets/images/courses/img-4.jpg" alt="">
+                                    </div>
+                                    <div class="cart_text">
+                                        <h4> The Complete JavaScript From beginning to advance </h4>
+                                    </div>
+                                    <div class="cart_price">
+                                        <span> $16.99 </span>
+                                        <button class="type"> Remove</button>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cart_avatar">
+                                        <img src="../assets/images/courses/img-5.jpg" alt="">
+                                    </div>
+                                    <div class="cart_text">
+                                        <h4> Become a Web Developer from Scratch to Advanced</h4>
+                                    </div>
+                                    <div class="cart_price">
+                                        <span> $12.99 </span>
+                                        <button class="type"> Remove</button>
+                                    </div>
+                                </li>
+                            </ul>
+        
+                            <div class="cart_footer">
+                                <p> Subtotal : $ 320 </p>
+                                <h1> Total :  <strong> $ 320</strong> </h1>
+                            </div>
+                        </div>
+        
+                        <!-- notification -->
+                        <a href="#" class="header_widgets">
+                            <ion-icon name="mail-outline" class="is-icon"></ion-icon>
+                        </a>
+                        <div uk-drop="mode: click" class="header_dropdown"> 
+                            <div class="drop_headline">
+                                <h4>Notifications </h4>
+                                <div class="btn_action">
+                                    <div class="btn_action">
+                                        <a href="#">
+                                            <ion-icon name="settings-outline" uk-tooltip="title: Notifications settings ; pos: left"></ion-icon>
+                                        </a>
+                                        <a href="#">
+                                            <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <ul class="dropdown_scrollbar" data-simplebar>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <p> <strong>Adrian Mohani</strong> Like Your Comment On Course
+                                                <span class="text-link">Javascript Introduction </span>
+                                            </p>
+                                            <span class="time-ago"> 2 hours ago </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <p>
+                                                <strong>Stella Johnson</strong> Replay Your Comments in
+                                                <span class="text-link">Programming for Games</span>
+                                            </p>
+                                            <span class="time-ago"> 9 hours ago </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <p>
+                                                <strong>Alex Dolgove</strong> Added New Review In Course
+                                                <span class="text-link">Full Stack PHP Developer</span>
+                                            </p>
+                                            <span class="time-ago"> 12 hours ago </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <p>
+                                                <strong>Jonathan Madano</strong> Shared Your Discussion On Course
+                                                <span class="text-link">Css Flex Box </span>
+                                            </p>
+                                            <span class="time-ago"> Yesterday </span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="see-all">See all</a>
+                        </div>
+        
+                        <!-- messages -->
+                        <a href="#" class="header_widgets">
+                            <ion-icon name="notifications-outline" class="is-icon"></ion-icon>
+                            <span> 2 </span>
+                        </a>
+                        <div uk-drop="mode: click" class="header_dropdown">
+                            <div class="drop_headline">
+                                <h4>Messages </h4>
+                                <div class="btn_action">
+                                    <a href="#">
+                                        <ion-icon name="settings-outline" uk-tooltip="title: Message settings ; pos: left"></ion-icon>
+                                    </a>
+                                    <a href="#">
+                                        <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="dropdown_scrollbar" data-simplebar>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <strong> John menathon </strong> <span class="time"> 6:43 PM</span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <strong> Zara Ali </strong> <span class="time">12:43 PM</span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <strong> Mohamed Ali </strong> <span class="time"> Wed</span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <strong> John menathon </strong> <span class="time"> Sun </span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <strong> Zara Ali </strong> <span class="time"> Fri </span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="drop_avatar"> <img src="../assets/images/avatars/avatar-3.jpg" alt="">
+                                        </div>
+                                        <div class="drop_content">
+                                            <strong> Mohamed Ali </strong> <span class="time">1 Week ago</span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="see-all">See all</a>
+                        </div>
+        
+                         <!-- profile -->
+                        <a href="#">
+                            <img src="../assets/images/avatars/placeholder.png" class="header_widgets_avatar" alt="">
+                        </a>
+                        <div uk-drop="mode: click;offset:5" class="header_dropdown profile_dropdown">
+                            <ul>   
+                                <li>
+                                    <a href="#" class="user">
+                                        <div class="user_avatar">
+                                            <img src="../assets/images/avatars/avatar-2.jpg" alt="">
+                                        </div>
+                                        <div class="user_name">
+                                            <div> Stella Johnson </div>
+                                            <span> @Johnson </span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <hr>
+                                </li>
+                                <li> 
+                                    <a href="#" class="is-link">
+                                        <ion-icon name="rocket-outline" class="is-icon"></ion-icon> <span>  Upgrade Membership  </span>
+                                    </a>
+                                </li> 
+                                <li> 
+                                    <hr>
+                                </li>
+                                <li> 
+                                    <a href="page-setting.html">
+                                        <ion-icon name="person-circle-outline" class="is-icon"></ion-icon>
+                                         My Account 
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="group-feed.html">
+                                        <ion-icon name="card-outline" class="is-icon"></ion-icon>
+                                        Subscriptions
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="group-feed.html">
+                                        <ion-icon name="color-wand-outline" class="is-icon"></ion-icon>
+                                        My Billing 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="group-feed.html">
+                                        <ion-icon name="settings-outline" class="is-icon"></ion-icon>
+                                        Account Settings  
+                                    </a>
+                                </li>
+                                <li> 
+                                    <hr>
+                                </li>
+                                <li> 
+                                    <a href="#" id="night-mode" class="btn-night-mode" onclick="UIkit.notification({ message: 'Hmm...  <strong> Night mode </strong> feature is not available yet. ' , pos: 'bottom-right'  })">
+                                        <ion-icon name="moon-outline" class="is-icon"></ion-icon>
+                                         Night mode
+                                        <span class="btn-night-mode-switch">
+                                            <span class="uk-switch-button"></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li> 
+                                    <a href="group-feed.html">
+                                        <ion-icon name="log-out-outline" class="is-icon"></ion-icon>
+                                        Log Out 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> 
+
+                    </div>
+    
+                </div>
+            </div>
+        </header>
+ 
+        <!-- Main Contents -->
+        <div class="main_content">
+            <div class="container p-0">
+
+                <div class="bg-blue-600 md:rounded-b-lg md:-mt-8 md:pb-8 md:pt-12 p-5 pb-8 relative overflow-hidden" style="background: #1877f2;">
+
+                    <div class="lg:w-9/12 relative z-10">
+
+                        <div class="uppercase text-gray-200 mb-2 font-semibold text-sm">Web develpment</div>
+                        <h1 class="lg:leading-10 lg:text-3xl text-white text-2xl leading-8 font-semibold">The Complete JavaScript From beginning to Experts for advance</h1>
+                        <p class="lg:text-lg hidden"> Master JavaScript with the most complete course! Projects Excellent course. we explain the core concepts in javascript 
+                        that are usually glossed over in other courses </p>
+                        <ul class="flex text-gray-200 gap-4 mt-4 mb-2">
+                            <li class="flex items-center">
+                                <span class="avg bg-yellow-500 mr-2 px-2 rounded text-white font-semiold"> 4.9 </span>
+                                <div class="star-rating text-yellow-400">
+                                    <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star-half"></ion-icon>
+                                </div>
+                            </li>
+                            <li> <ion-icon name="people-circle-outline"></ion-icon> 1200 Enerolled </li>
+                        </ul>
+                        <ul class="lg:flex items-center text-gray-200">
+                            <li> Created by <a href="#" class="text-white fond-bold hover:underline hover:text-white"> Stella Johnson </a> </li>
+                            <li> <span class="lg:block hidden mx-3 text-2xl">·</span> </li>
+                            <li> Last updated 10/2019</li>
+                        </ul>
+
+                    </div>
+
+                    <img src="../assets/images/courses/course-intro.png" alt="" class="-bottom-1/2 absolute right-0 hidden lg:block">
+
+                </div>
+                 
+                <div class="lg:flex lg:space-x-4 mt-4">
+                    <div class="lg:w-8/12 space-y-4">
+                        
+                        <div class="tube-card z-20 mb-4 overflow-hidden uk-sticky" uk-sticky="cls-active:rounded-none ; media: 992 ; offset:70">
+                            <nav class="cd-secondary-nav extanded ppercase nav-small">
+                                <ul class="space-x-3" uk-scrollspy-nav="closest: li; scroll: true">
+                                    <li><a href="#Overview" uk-scroll>Overview</a></li>
+                                    <li><a href="#curriculum" uk-scroll>Curriculum</a></li> 
+                                    <li><a href="#faq" uk-scroll>FAQ</a></li>
+                                    <li><a href="#announcement">Announcement</a></li>
+                                    <li><a href="#reviews">Reviews</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+
+                        <!-- course description -->
+                        <div class="tube-card p-5" id="Overview">
+    
+                            <div class="space-y-6">
+                                <div>
+                                    <h3 class="text-xl font-semibold mb-1"> Description </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                        tincidunt ut
+                                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim laoreet dolore magna
+                                        aliquam erat
+                                        volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                        lobortis
+                                        nisl ut aliquip ex ea commodo consequat
+                                    </p>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold mb-1"> What You’ll Learn </h3>
+                                    <ul class="grid md:grid-cols-2">
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Setting up the environment</li>
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Advanced HTML Practices</li>
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Build a portfolio website</li>
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Responsive Designs</li>
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Understand HTML Programming</li>
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Code HTML</li>
+                                        <li> <i class="uil-check text-xl font-bold mr-2"></i>Start building beautiful websites</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-semibold mb-1"> Requirements</h3>
+                                    <ul class="list-disc ml-5 space-y-1 mt-3">
+                                        <li>Any computer will work: Windows, macOS or Linux</li>
+                                        <li>Basic programming HTML and CSS.</li>
+                                        <li>Basic/Minimal understanding of JavaScript</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                        <h3 class="font-medium text-lg mb-2"> Here is exactly what we cover in this course: </h3>
+                                        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                                        nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                        Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+                                        mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+                                        wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                        aliquip ex ea commodo consequat.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- course Curriculum -->
+                        <div id="curriculum">
+                            <h3 class="mb-4 text-xl font-semibold"> Course Curriculum </h3>
+                            <ul uk-accordion="multiple: true" class="tube-card p-4 divide-y space-y-3">
+
+                                <li class="uk-open">
+                                    <a class="uk-accordion-title text-md mx-2 font-semibold" href="#">  <div class="mb-1 text-sm font-medium"> Section 1 </div> Html Introduction </a>
+                                    <div class="uk-accordion-content mt-3 text-base">
+            
+                                        <ul class="course-curriculum-list font-medium">
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon> Introduction <span class="text-sm ml-auto"> 4 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon> What is HTML <span class="text-sm ml-auto"> 5 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                What is a Web page? <span class="text-sm ml-auto"> 8 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Your First Web Page 
+                                                <a href="#trailer-modal" class="bg-gray-200 ml-4 px-2 py-1 rounded-full text-xs" uk-toggle=""> Preview </a>
+                                                <span class="text-sm ml-auto"> 4 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Brain Streak <span class="text-sm ml-auto"> 5 min </span>
+                                            </li>
+                                        </ul>
+            
+                                    </div>
+                                </li>
+                                <li class="pt-2">
+                                    <a class="uk-accordion-title text-md mx-2 font-semibold" href="#"> <div class="mb-1 text-sm font-medium"> Section 2 </div> Your First webpage  </a>
+                                    <div class="uk-accordion-content mt-3 text-base">
+            
+                                        <ul class="course-curriculum-list font-medium">
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon> Headings
+                                                <span class="text-sm ml-auto"> 4 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon> Paragraphs
+                                                <span class="text-sm ml-auto"> 5 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Emphasis and Strong Tag 
+                                                <span class="text-sm ml-auto"> 8 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Brain Streak 
+                                                <a href="#trailer-modal" class="bg-gray-200 ml-4 px-2 py-1 rounded-full text-xs" uk-toggle=""> Preview </a>
+                                                <span class="text-sm ml-auto"> 4 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Live Preview Feature
+                                                <span class="text-sm ml-auto"> 5 min </span>
+                                            </li>
+                                        </ul>
+            
+                                    </div>
+                                </li>
+                                <li class="pt-2">
+                                    <a class="uk-accordion-title text-md mx-2 font-semibold" href="#"> <div class="mb-1 text-sm font-medium"> Section 3 </div> Build Complete Webste  </a>
+                                    <div class="uk-accordion-content mt-3 text-base">
+            
+                                        <ul class="course-curriculum-list font-medium">
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon> The paragraph tag
+                                                <span class="text-sm ml-auto"> 4 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon> The break tag
+                                                <span class="text-sm ml-auto"> 5 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Headings in HTML
+                                                <span class="text-sm ml-auto"> 8 min </span>
+                                            </li>
+                                            <li class="hover:bg-gray-200 p-2 flex rounded">
+                                                <ion-icon name="play-circle" class="text-2xl mr-2"></ion-icon>
+                                                Bold, Italics Underline 
+                                                <a href="#trailer-modal" class="bg-gray-200 ml-4 px-2 py-1 rounded-full text-xs" uk-toggle=""> Preview </a>
+                                                <span class="text-sm ml-auto"> 4 min </span>
+                                            </li>
+                                        </ul>
+            
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- course Faq --> 
+                        <div  id="faq" class="tube-card p-5">
+                            <h3 class="text-xl font-semibold mb-3"> Course Faq </h3>
+                            <ul uk-accordion="multiple: true" class="divide-y space-y-3">
+                                <li class="bg-gray-100 px-4 py-3 rounded-md uk-open">
+                                    <a class="uk-accordion-title font-semibold text-base" href="#"> Html Introduction </a>
+                                    <div class="uk-accordion-content mt-3">
+                                        <p> The primary goal of this quick start guide is to introduce you to
+                                            Unreal
+                                            Engine 4`s (UE4) development environment. By the end of this guide,
+                                            you`ll
+                                            know how to set up and develop C++ Projects in UE4. This guide shows
+                                            you
+                                            how
+                                            to create a new Unreal Engine project, add a new C++ class to it,
+                                            compile
+                                            the project, and add an instance of a new class to your level. By
+                                            the
+                                            time
+                                            you reach the end of this guide, you`ll be able to see your
+                                            programmed
+                                            Actor
+                                            floating above a table in the level. </p>
+                                    </div>
+                                </li>
+                                <li class="bg-gray-100 px-4 py-3 rounded-md">
+                                    <a class="uk-accordion-title font-semibold text-base" href="#"> Your First webpage</a>
+                                    <div class="uk-accordion-content mt-3">
+                                        <p> The primary goal of this quick start guide is to introduce you to
+                                            Unreal
+                                            Engine 4`s (UE4) development environment. By the end of this guide,
+                                            you`ll
+                                            know how to set up and develop C++ Projects in UE4. This guide shows
+                                            you
+                                            how
+                                            to create a new Unreal Engine project, add a new C++ class to it,
+                                            compile
+                                            the project, and add an instance of a new class to your level. By
+                                            the
+                                            time
+                                            you reach the end of this guide, you`ll be able to see your
+                                            programmed
+                                            Actor
+                                            floating above a table in the level. </p>
+                                    </div>
+                                </li>
+                                <li class="bg-gray-100 px-4 py-3 rounded-md">
+                                    <a class="uk-accordion-title font-semibold text-base" href="#"> Some Special Tags </a>
+                                    <div class="uk-accordion-content mt-3">
+                                        <p> The primary goal of this quick start guide is to introduce you to
+                                            Unreal
+                                            Engine 4`s (UE4) development environment. By the end of this guide,
+                                            you`ll
+                                            know how to set up and develop C++ Projects in UE4. This guide shows
+                                            you
+                                            how
+                                            to create a new Unreal Engine project, add a new C++ class to it,
+                                            compile
+                                            the project, and add an instance of a new class to your level. By
+                                            the
+                                            time
+                                            you reach the end of this guide, you`ll be able to see your
+                                            programmed
+                                            Actor
+                                            floating above a table in the level. </p>
+                                    </div>
+                                </li>
+                                <li class="bg-gray-100 px-4 py-3 rounded-md">
+                                    <a class="uk-accordion-title font-semibold text-base" href="#"> Html Introduction </a>
+                                    <div class="uk-accordion-content mt-3">
+                                        <p> The primary goal of this quick start guide is to introduce you to
+                                            Unreal
+                                            Engine 4`s (UE4) development environment. By the end of this guide,
+                                            you`ll
+                                            know how to set up and develop C++ Projects in UE4. This guide shows
+                                            you
+                                            how
+                                            to create a new Unreal Engine project, add a new C++ class to it,
+                                            compile
+                                            the project, and add an instance of a new class to your level. By
+                                            the
+                                            time
+                                            you reach the end of this guide, you`ll be able to see your
+                                            programmed
+                                            Actor
+                                            floating above a table in the level. </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- course Announcement -->
+                        <div  id="announcement" class="tube-card p-5">
+                            <h3 class="text-xl font-semibold mb-3"> Announcement </h3>
+                            
+                            <div class="flex items-center gap-x-4 mb-5">
+                                <img src="../assets/images/avatars/avatar-4.jpg" alt="" class="rounded-full shadow w-12 h-12">
+                                <div>
+                                    <h4 class="-mb-1 text-base"> Stella Johnson</h4>
+                                    <span class="text-sm"> Instructor <span class="text-gray-500"> 1 year ago </span> </span>
+                                </div>
+                            </div>
+            
+                            <h4 class="leading-8 text-xl"> Nam liber tempor cum soluta nobis eleifend option congue imperdiet
+                                doming id quod mazim placerat facer possim assum.</h4>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                                nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam
+                                liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                                placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+                                minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                                commodo consequat.</p>
+
+                        </div>
+                         
+                        <!-- course Reviews -->
+                        <div  id="reviews" class="tube-card p-5">
+                            <h3 class="text-xl font-semibold mb-3"> Reviews (4610) </h3>
+                            
+                            <div class="flex space-x-5 mb-8">
+                                <div class="lg:w-1/4 w-full">
+                                    <div class="bg-blue-100 space-y-1 py-5 rounded-md border border-blue-200 text-center shadow-xs">
+                                        <h1 class="text-5xl font-semibold"> 4.8</h1>
+                                        <div class="flex justify-center">
+                                            <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                        </div>
+                                        <h5 class="mb-0 mt-1 text-sm"> Course Rating</h5>
+                                    </div>
+                                </div>
+                                <!-- progress -->
+                                <div class="w-2/4 hidden lg:flex flex-col justify-center space-y-5">
+            
+                                    <div class="w-full h-2.5 rounded-lg bg-gray-300 shadow-xs relative">
+                                        <div class="w-11/12 h-full rounded-lg bg-gray-800"> </div>
+                                    </div>
+                                    <div class="w-full h-2.5 rounded-lg bg-gray-300 shadow-xs relative">
+                                        <div class="w-4/5 h-full rounded-lg bg-gray-800"> </div>
+                                    </div>
+                                    <div class="w-full h-2.5 rounded-lg bg-gray-300 shadow-xs relative">
+                                        <div class="w-3/5 h-full rounded-lg bg-gray-800"> </div>
+                                    </div>
+                                    <div class="w-full h-2.5 rounded-lg bg-gray-300 shadow-xs relative">
+                                        <div class="w-3/6 h-full rounded-lg bg-gray-800"> </div>
+                                    </div>
+                                    <div class="w-full h-2.5 rounded-lg bg-gray-300 shadow-xs relative">
+                                        <div class="w-1/3 h-full rounded-lg bg-gray-800"> </div>
+                                    </div>
+            
+                                </div>
+                                <!-- stars -->
+                                <div class="w-1/4 hidden lg:flex flex-col justify-center space-y-2">
+                                    
+                                    <div class="flex justify-center items-center">
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <span class="ml-2"> 95 %</span>
+                                    </div>
+                                    <div class="flex justify-center items-center">
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon> <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <span class="ml-2"> 85 %</span>
+                                    </div>
+                                    <div class="flex justify-center items-center">
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon> <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                        <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <span class="ml-2"> 60 %</span>
+                                    </div>
+                                    <div class="flex justify-center items-center">
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon> <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon> <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <span class="ml-2"> 50 %</span>
+                                    </div>
+                                    <div class="flex justify-center items-center">
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon> <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon> <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <span class="ml-2"> 35 %</span>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                            
+                            <div class="space-y-4 my-5">
+                    
+                                <div class="bg-gray-50 border flex gap-x-4 p-4 relative rounded-md">
+                                    <img src="../assets/images/avatars/avatar-4.jpg" alt="" class="rounded-full shadow w-12 h-12">
+                                    <div class="flex justify-center items-center absolute right-5 top-6 space-x-1 text-yellow-500">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-base m-0 font-semibold"> Stella Johnson</h4>
+                                        <span class="text-gray-700 text-sm"> 14th, April 2021 </span>
+                                        <p class="mt-3 md:ml-0 -ml-16">
+                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut laoreet dolore
+                                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="bg-gray-50 border flex gap-x-4 p-4 relative rounded-md">
+                                    <div class="flex justify-center items-center absolute right-5 top-6 space-x-1 text-yellow-500">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/avatars/avatar-2.jpg" alt="" class="rounded-full shadow w-12 h-12">
+                                    <div>
+                                        <h4 class="text-base m-0 font-semibold"> Alex Dolgove</h4>
+                                        <span class="text-gray-700 text-sm"> 16th, May 2021 </span>
+                                        <p class="mt-3 md:ml-0 -ml-16">
+                                            elit, sed diam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ipsum dolor sit
+                                            amet, consectetuer adipiscing elit, sed diam ut laoreet dolore
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="bg-gray-50 border flex gap-x-4 p-4 relative rounded-md lg:ml-16">
+                                    <div class="flex justify-center items-center absolute right-5 top-6 space-x-1 text-yellow-500">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star" class="text-gray-300"></ion-icon>
+                                    </div>
+                                    <img src="../assets/images/avatars/avatar-3.jpg" alt="" class="rounded-full shadow w-12 h-12">
+                                    <div>
+                                        <h4 class="text-base m-0 font-semibold"> Trap Nation</h4>
+                                        <span class="text-gray-700 text-sm"> 16th, May 2021 </span>
+                                        <p class="mt-3 md:ml-0 -ml-16">
+                                            elit, sed diam ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim ipsum dolor sit
+                                            amet, consectetuer adipiscing elit, sed diam ut laoreet dolore
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                            </div>
+    
+                            <div class="flex justify-center mt-9">
+                                <a href="#" class="bg-gray-50 border hover:bg-gray-100 px-4 py-1.5 rounded-full text-sm">More Comments ..</a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- course intro Sidebar -->
+                    <div class="lg:w-4/12 space-y-4 lg:mt-0 mt-4">
+                        
+                        <div uk-sticky="top:600;offset:; offset:90 ; media: 1024">
+                            <div class="tube-card p-5" uk-sticky="top:600;offset:; offset:90 ; media: @s"> 
+    
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="flex flex-col space-y-2">
+                                        <div class="text-3xl font-semibold"> 3.2 </div>
+                                        <div> Hours </div>
+                                        <ion-icon name="time" class="text-lg" hidden></ion-icon>
+                                    </div>
+                                    <div class="flex flex-col space-y-2">
+                                        <div class="text-3xl font-semibold"> 12,140</div>
+                                        <div> Students </div>
+                                        <ion-icon name="people-circle" class="text-lg" hidden></ion-icon>
+                                    </div>
+                                </div>
+                                <hr class="-mx-5 border-gray-200 my-4">
+                                <h4 hidden> COURSE INCLUDES</h4>
+    
+                                <div class="-m-5 divide-y divide-gray-200 text-sm">
+                                    <div class="flex items-center px-5 py-3">  <ion-icon name="play-outline" class="text-2xl mr-2"></ion-icon> 13 hours on-demand video </div>
+                                    <div class="flex items-center px-5 py-3">  <ion-icon name="key-outline" class="text-2xl mr-2"></ion-icon> Full lifetime access </div>
+                                    <div class="flex items-center px-5 py-3">  <ion-icon name="download-outline" class="text-2xl mr-2"></ion-icon> 42 downloadable resources </div>
+                                    <div class="flex items-center px-5 py-3">  <ion-icon name="help-circle-outline" class="text-2xl mr-2"></ion-icon>Assignments </div>
+                                    <div class="flex items-center px-5 py-3">  <ion-icon name="medal-outline" class="text-2xl mr-2"></ion-icon>Certificate of Completion </div>
+                                </div>
+                                
+                            </div>
+                            <div class="mt-4">
+                                <a href="course-watch.html" class="flex items-center justify-center h-9 px-6 rounded-md bg-blue-600 text-white"> Enroll Now </a>
+                            </div>
+                        </div>
+
+                        <div class="tube-card p-5"> 
+                            <div class="flex items-start justify-between">
+                                <div>
+                                    <h4 class="text-lg -mb-0.5 font-semibold"> Related  Courses </h4>
+                                </div>
+                                <a href="#" class="text-blue-600"> <ion-icon name="refresh" class="-mt-0.5 -mr-2 hover:bg-gray-100 p-1.5 rounded-full text-lg"></ion-icon> </a>
+                            </div>
+                            <div class="p-1">
+                                <a href="#" class="-mx-3 block hover:bg-gray-100 p-2 rounded-md">
+                                    <div class="flex items-center space-x-3">
+                                        <img src="../assets/images/courses/img-2.jpg" alt="" class="h-12 object-cover rounded-md w-12">
+                                        <div class="line-clamp-2 text-sm font-medium">
+                                            The Complete JavaScript From beginning to Experts for advance
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="-mx-3 block hover:bg-gray-100 p-2 rounded-md">
+                                    <div class="flex items-center space-x-3">
+                                        <img src="../assets/images/courses/img-4.jpg" alt="" class="h-12 object-cover rounded-md w-12">
+                                        <div class="line-clamp-2 text-sm font-medium"> 
+                                            The Complete JavaScript From beginning to Experts for advance
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="-mx-3 block hover:bg-gray-100 p-2 rounded-md">
+                                    <div class="flex items-center space-x-3">
+                                        <img src="../assets/images/courses/img-3.jpg" alt="" class="h-12 object-cover rounded-md w-12">
+                                        <div class="line-clamp-2 text-sm font-medium"> 
+                                            The Complete JavaScript From beginning to Experts for advance
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="#" class="hover:bg-gray-100 -mb-1.5 mt-0.5 h-8 flex items-center justify-center rounded-md text-blue-400 text-sm"> 
+                                See all 
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <div class="sidebar_inner" data-simplebar>
+                
+                <ul class="side-colored">
+                    <li><a href="explore.html">
+                            <ion-icon name="compass" class="side-icon"> </ion-icon>
+                            <span> Explore</span>
+                        </a>
+                    </li>
+                    <li class="active"><a href="courses.html">
+                            <ion-icon name="play-circle" class="side-icon"> </ion-icon>
+                            <span> Courses</span>
+                        </a>
+                    </li>
+                    <li><a href="categories.html">
+                            <ion-icon name="albums" class="side-icon"> </ion-icon>
+                            <span> Categories </span>
+                        </a>
+                    </li>
+                    <li><a href="episodes.html">
+                            <ion-icon name="film" class="side-icon">  </ion-icon>
+                            <span> Episodes </span>
+                        </a>
+                    </li>
+                    <li><a href="books.html">
+                            <ion-icon name="book" class="side-icon"> </ion-icon>
+                            <span> Books </span>
+                        </a>
+                    </li>
+                    <li><a href="blogs.html">
+                            <ion-icon name="newspaper" class="side-icon">  </ion-icon>
+                            <span> Articles</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="side_links" data-sub-title="Pages">
+                    <li><a href="page-pricing.html"> <ion-icon name="card-outline" class="side-icon"></ion-icon> Pricing  </a></li>
+                    <li><a href="page-help.html"> <ion-icon name="information-circle-outline" class="side-icon"></ion-icon> Help </a></li>
+                    <li><a href="page-faq.html"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Faq </a></li>
+                    <li><a href="#"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Forum  <span class="soon">soon</span> </a></li>
+                    <li><a href="page-term.html"> <ion-icon name="document-outline" class="side-icon"></ion-icon> Term </a></li>
+                    <li><a href="page-privacy.html"> <ion-icon name="document-text-outline" class="side-icon"></ion-icon> Privacy </a></li> 
+                    <li><a href="page-setting.html"> <ion-icon name="settings-outline" class="side-icon"></ion-icon> Setting </a></li> 
+                    <li><a href="#"> Development  </a> 
+                        <ul>
+                            <li><a href="development-elements.html"> Elements  </a></li>
+                            <li><a href="development-components.html"> Compounents </a></li>
+                            <li><a href="development-plugins.html"> Plugins </a></li>
+                            <li><a href="development-icons.html"> Icons </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"> Authentication  </a> 
+                        <ul>
+                            <li><a href="form-login.html">form login </a></li>
+                            <li><a href="form-register.html">form register</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="side_foot_links">
+                    <a href="#">About</a>
+                    <a href="#">Blog </a>
+                    <a href="#">Careers</a>
+                    <a href="#">Support</a>
+                    <a href="#">Contact Us </a>
+                    <a href="#">Developer</a>
+                    <a href="#">Terms of service</a>
+                </div>
+
+            </div>
+
+            <div class="side_overly" uk-toggle="target: #wrapper ; cls: is-collapse is-active"></div>
+        </div>
+
+    </div>
+
+  
+    <!-- video demo model -->
+    <div id="trailer-modal" uk-modal>
+        <div class="uk-modal-dialog shadow-lg rounded-md">
+            <button class="uk-modal-close-default m-2.5" type="button" uk-close></button>
+            <div class="uk-modal-header  rounded-t-md">
+                <h4 class="text-lg font-semibold mb-2"> Trailer video </h4>
+            </div>
+          
+            <div class="embed-video">
+                <iframe src="https://www.youtube.com/embed/nOCXXHGMezU" class="w-full"
+                uk-video="automute: true" frameborder="0" allowfullscreen uk-responsive></iframe>
+            </div>
+
+
+            <div class="uk-modal-body">
+                <h3 class="text-lg font-semibold mb-2">Build Responsive Websites </h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident,
+                    sunt
+                    in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript
+    ================================================== -->
+    <script src="../../../code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../assets/js/uikit.js"></script>
+    <script src="../assets/js/tippy.all.min.js"></script>
+    <script src="../assets/js/simplebar.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/bootstrap-select.min.js"></script>
+    <script src="../../../unpkg.com/ionicons%405.2.3/dist/ionicons.js"></script>
+
+</body>
+
+</html>
