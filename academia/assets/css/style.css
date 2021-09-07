@@ -6880,13 +6880,14 @@ template {
 }
 
 header {
-  background-color: white;
-  border-bottom: 1px solid #E5E9EF;
+  background-color: #003154;
+  /* border-bottom: 1px solid #E5E9EF; */
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   z-index: 99;
+  color: #fff;
   height: 72px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6894,6 +6895,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          
 }
 
 header .header_inner {
