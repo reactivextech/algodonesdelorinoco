@@ -98,10 +98,16 @@
 .primary-modal .e5538-6.x-row {
     padding: 1em 0em 0em 0em;
 }
-/* .modal-title {
-    font-size: 1.5em !important;
-    letter-spacing: 1px !important;
-} */
+.form-export h2 {
+    color: rgb(1, 11, 46) !important;
+}
+.form-export {
+    background-color: rgb(242, 242, 242) !important;
+}
+.form-export a.e5538-15 {
+    width: 25em !important;
+    margin: 0 !important;
+}
 /* Active Modal */
 .active-modal {
     opacity: 1;
