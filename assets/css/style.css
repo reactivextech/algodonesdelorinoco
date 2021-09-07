@@ -35,3 +35,57 @@
         font-size: 3em;
     }
 }
+.primary-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.primary-modal-content {
+    position: relative;
+    background-color: rgb(1, 11, 46);
+    padding: 2rem;
+    width: 46em;
+}
+.primary-modal-services {
+    row-gap: 1rem;
+}
+.primary-modal-service {
+    display: flex;
+}
+.primary-modal-title {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+.primary-modal-close {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+}
+.primary-modal-icon {
+    color: #fff;
+    margin-right: .25rem;
+}
+/* .modal-title {
+    font-size: 1.5em !important;
+    letter-spacing: 1px !important;
+} */
+/* Active Modal */
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
