@@ -7944,7 +7944,7 @@ header .header_inner,
 
 @media (min-width: 1024px) {
   .is-verticle header {
-    background-color: #fff;
+    background-color:rgb(1, 11, 46);
     border: 0;
   }
   .is-verticle header .header_inner {
@@ -7959,9 +7959,9 @@ header .header_inner,
   .is-verticle header .header_inner .left-side {
     height: 72px;
     width: 300px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-bottom-width: 1px;
-    border-right-width: 1px;
+    background-color: rgba(1, 11, 46, 1);
+    /* border-bottom-width: 1px;
+    border-right-width: 1px; */
     border-bottom-color: #f0f0f0;
     padding: 0 20px;
   }
@@ -7970,9 +7970,9 @@ header .header_inner,
     width: calc(100% - 300px);
     max-width: 1160px;
     padding: 0 30px;
-    border-bottom-width: 1px;
-    background-color: rgba(249, 250, 251, 0.9);
-    color: #1d1929;
+    /* border-bottom-width: 1px; */
+    background-color: rgba(1, 11, 46, 1);
+    color: #fff;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
