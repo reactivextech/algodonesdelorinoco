@@ -113,3 +113,34 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+@media (min-width: 479.99px) {
+    .botton-modal-inscription span.x-anchor-text-primary {
+        display: inline-block !important;
+    }
+    .botton-modal-inscription img {
+        display: none !important;
+    }
+}
+@media (max-width: 479.98px) {
+    .botton-modal-inscription {
+        margin-right: 10px;
+    }
+    .botton-modal-inscription img {
+        display: inline-block !important;
+    }
+    .botton-modal-inscription span.x-anchor-text-primary {
+        display: none !important;
+    }
+    .botton-modal-inscription .x-anchor-content {
+        padding: 0.85em 0em 0.85em 0em !important;
+        width: 2.88em;
+        height: 2.88em;
+    }
+}
+@media (max-width: 661px) {
+    .e6438-7.x-image {
+        width: 150px;
+    }
+}
