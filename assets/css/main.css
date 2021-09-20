@@ -1466,7 +1466,7 @@ html .wp-block-cover[style*="background-image"]:not(.optml-bg-lazyloaded) {
 			padding: 4em 0em 4em 0em;
 			font-size: 1em;
 			background-color: rgb(1, 11, 46);
-			z-index: 9999;
+			z-index: 1;
 		}
 
 		.e6434-8.x-bar {
