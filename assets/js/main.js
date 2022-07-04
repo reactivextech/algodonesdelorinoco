@@ -20,4 +20,7 @@ modalCloses.forEach((modalClose) => {
     })
 })
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+/*==================== DATE COPYRIGHT FOOTER ====================*/
+var date = new Date();
+var year = date.getFullYear();
+document.getElementById('date-copyright').innerHTML = year;
